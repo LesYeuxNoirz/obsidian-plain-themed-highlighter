@@ -80,6 +80,7 @@ export class PlainThemedHighlighterPlugin extends Plugin {
 			this.addCommand({
 				id: `plain-themed-highlighter-apply-${name}`,
 				name: `Plain themed highlighter: apply ${name} highlight`,
+				icon: 'paintbrush-2',
 				editorCallback(editor) {
 					const selection = editor.getSelection();
 					editor.replaceSelection(
